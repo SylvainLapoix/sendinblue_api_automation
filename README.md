@@ -7,15 +7,15 @@ Sur la base des recettes de référence du guide de [l'API fourni par Sendinblue
 
 ## Contacts
 
-[x] récupération de tous les contacts
-[x] récupération de toutes les listes
-[ ] créer ou màj un contact
-[ ] mettre à jour plusieurs contacts
-[ ] créer une liste
-[ ] ajouter de nouveaux contacts à une liste
-[ ] ajouter des contacts existants à une liste
-[ ] supprimer un contact d'une liste
-[ ] importer des contacts
+- [x] récupération de tous les contacts
+- [x] récupération de toutes les listes
+- [ ] créer ou màj un contact
+- [ ] mettre à jour plusieurs contacts
+- [ ] créer une liste
+- [ ] ajouter de nouveaux contacts à une liste
+- [ ] ajouter des contacts existants à une liste
+- [ ] supprimer un contact d'une liste
+- [ ] importer des contacts
 
 ## Mailing
 
