@@ -7,15 +7,28 @@ Sur la base des recettes de référence du guide de [l'API fourni par Sendinblue
 
 ## Contacts
 
+### Requête de base
+
 - [x] récupération de tous les contacts
 - [x] récupération de toutes les listes
-- [ ] créer ou màj un contact
-- [ ] mettre à jour plusieurs contacts
-- [ ] créer une liste
-- [ ] ajouter de nouveaux contacts à une liste
-- [ ] ajouter des contacts existants à une liste
-- [ ] supprimer un contact d'une liste
-- [ ] importer des contacts
+- [x] créer ou màj un contact
+- [x] ajouter des contacts existants à une liste
+- [x] supprimer un contact d'une liste
+- [x] importer des contacts
+- [x] exporter sortie de get_lists en .csv
+
+### Recette 1 : importer des nouveaux contacts dans une liste "nouveaux_arrivants"
+
+1. réconcilier base nouveaux arrivants avec les IDs des listes correspondantes ;
+2. nester par groupe en .scsv ;
+3. importer chaque groupe avec l'ID de sa liste
+
+### Recette 2 : transférer l'intégralité des contacts d'une liste à une autre
+
+1. récupérer mail / IDs d'une liste ;
+2. ajouter les contacts à la nouvelle liste ;
+3. les supprimer de l'ancienne liste.
+
 
 ## Mailing
 
